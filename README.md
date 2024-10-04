@@ -10,3 +10,5 @@ Future-Ready Features: We're gearing up to enable users to create and submit the
 Join us in transforming the learning experience and empowering each other to grow and succeed in the tech landscape! 🌍✨
 
 Let’s build a community where knowledge is shared, questions are answered, and everyone can thrive!
+
+link to application SRS document - https://github.com/kulshrestha00/logicMaster/blob/logic-master-old/SRS-LogicMaster.docx
