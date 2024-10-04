@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('Hydrangeas.jpg');
+}
+</style>
+	<meta charset="ISO-8859-1">
+	<title>Sign In</title>
+	<link rel="stylesheet"  href="style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="3D2CA0">
+	<div class="container">
+		<h1 class="label">SIGN IN</h1><hr>
+		<form class="login_form" method="post" onsubmit="return validation()" action="PasswordCheck"> 
+			<div class="font"><i class="fa fa-user icon"></i>&nbsp;&nbsp;Email
+			
+			<div><span ><input type="text" name="email" autocomplete="off" id="emails" placeholder="Someone@Doodle.com"><br></span></div>	
+			<span id="email" style="color:red"></span>
+			</div>
+			
+			
+			
+			<div class="font font2">
+			 <i class="fa fa-key icon"></i>&nbsp;&nbsp;Password
+			<input type="password" name="password" autocomplete="off" id="pass" placeholder="Abc@123#">
+			<span id="password" style="color:red"></span>
+			</div>
+			
+			
+		
+			<input class="checkbox" type="checkbox" onclick="myFunction()">Show Password
+			
+			<button type="submit" class="button">Sign In</button>
+		</form>
+		&emsp;&emsp;&emsp;<a href="signUp.html" style="padding-bottom: 30px;" >Create a new user</a><br>
+		&emsp;&emsp;&emsp;<a href="forgotPass.html" style="padding-bottom: 30px;" >Forgot your password</a><br><br>
+	</div>
+	<script src="sign_validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(C:\baljeetthakur\SignInForm\WebContent\bg.jpg.jpg) no-repeat;
+	background-size:cover;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+}
+.container{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+	font-family: sans-serif;
+}
+
+.label{
+	padding: 30px 100px;
+	margin-left:3px;
+	font-size:26px;
+	font-weight: bold;
+	color:#130f40
+}
+.label1{
+	text-align:center;
+	margin-right:20px;
+	font-size:15px;
+	font-family:Times New Roman;
+	color:#130f40
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	margin-bottom:15px;
+	font-size:18px;
+	color:#130f40;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width:350px;
+	padding: 0 5px;
+	font-size:18px;
+	outline:none;
+	border: 1px solid silver;
+	border-radius:5px;
+}
+.login_form .font2{
+	margin-top:15px;
+}
+
+.login_form .font5{
+	margin-top:15px;
+}
+
+.login_form .font6{
+	margin-top:15px;
+	height: 40px;
+	width:362px;
+	padding: 0 5px;
+	font-size:18px;
+	outline:none;
+	border: 1px solid silver;
+	border-radius:5px;
+}
+
+.login_form button{
+	margin:45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor:pointer;
+	font-weight:bold;
+	background: #1A237E;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form button:hover{
+	background: #556EF9;
+}
+/*.login_form #email_error,*/
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size:18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius:3px;
+	border: 1px solid #EF9A9A;
+	display:none;
+}
+.login_form .checkbox{
+	position: relative;
+	margin-top: 20px;
+	width: 25px;
+	height: auto;
+	margin-left: 0;
+	
+}
+
+
+.login_form .psw{
+	margin-left:225px;
+}

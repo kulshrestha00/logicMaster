@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('Hydrangeas.jpg');
+}
+</style>
+	<meta charset="ISO-8859-1">
+	<title>change password</title>
+	<link rel="stylesheet"  href="newPassw.css">
+</head>
+<body bgcolor="3D2CA0" onload='document.form.email.focus()'>
+	<div class="container">
+	
+		<form class="login_form" method="post" name="form" onsubmit="return validated()" action="ChangePass"> 
+			<div class="font">New password</div>
+			<input type="password" name="newpass" required  minlength=8>
+			
+			<div class="font font2">Confirm new password</div>
+			<input type="password" name="checknewpass" id="password" required minlength=8>
+			<div id="pass_error" >Password is too short</div>
+			<input class="checkbox" type="checkbox" onclick="myFunction()">Show Password
+			<button type="submit">Change password</button>
+			
+			
+		</form>
+	</div>
+	<script src="valid.js"></script>
+</body>
+</html>

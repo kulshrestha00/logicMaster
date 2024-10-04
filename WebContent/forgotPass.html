@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('Hydrangeas.jpg');
+}
+</style>
+	<meta charset="ISO-8859-1">
+	<title>forgot password</title>
+	<link rel="stylesheet"  href="forgotStyle.css">
+</head>
+<body bgcolor="3D2CA0" onload='document.form.email.focus()'>
+	<div class="container">
+		<h1 class="label">Forgot Password?</h1>
+		<h3 class="label1">Your can reset your password here.</h3>
+		<form class="login_form"  name="form" onsubmit="return validated()" action="ForgotPassword"> 
+			<div class="font">Email</div>
+			<input autocomplete="off" type="text" name="email" required>
+			<div class="font font5">Security Question
+			<select name="secondaryQuestion" class="font font6">
+			<option value="Who was your childhood hero?" selected="selected">Who was your childhood hero?</option>
+			<option value="What is your favourite color?">What is your favourite color?</option>
+			<option value="What is your best friend name?">What is your best friend name?</option>
+ 			</select>
+			</div>
+			<div class="font font2">Answer</div>
+			<input type="text" name="answer" required><br>
+			<input type="Submit" value ="verify">
+		</form>
+	</div>
+	<script src="valid.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('Hydrangeas.jpg');
+}
+</style>
+	<meta charset="ISO-8859-1">
+	<title>Change password</title>
+	<link rel="stylesheet"  href="changeStyleEmail.css">
+</head>
+<body bgcolor="3D2CA0" onload='document.form.email.focus()'>
+	<div class="container"><h1 class="label">Change Password?</h1>
+		<h3 class="label1">Your can Change your password here.</h3>
+		<form class="login_form" method="post" name="form" onsubmit="return validated()" action="VerifyMail"> 
+			<div class="font">Email</div>
+			<input autocomplete="off" type="text" name="email" required style="height: 35px; ">
+			<!--<div class="font font5">Security Question
+			<select name="secondaryQuestion" class="font font6">
+			<option value="Who was your childhood hero?" selected="selected">Who was your childhood hero?</option>
+			<option value="What is your favourite color?">What is your favourite color?</option>
+			<option value="What is your best friend name?">What is your best friend name?</option>
+ 			</select>
+			</div>-->
+			<!--<div class="font font2">Answer</div>
+			<input type="text" name="answer" required>-->
+			<button type="submit" onclick="ValidateEmail(document.form.email)">Change password</button>
+			
+		</form>	
+
+	</div>
+	<script src="valid.js"></script>
+</body>
+</html>

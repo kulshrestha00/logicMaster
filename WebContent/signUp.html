@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('Hydrangeas.jpg');
+}
+</style>
+	<meta charset="ISO-8859-1">
+	<title>Sign Up</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body bgcolor="3D2CA0">
+	<div class="container">
+		<h1 class="label">SIGN UP</h1><hr>
+		<form class="login_form" method="get" onsubmit="return validation()" action="DetailsFromForm"> 
+			
+			<div class="font">User Name
+			<input  type="text" name="userName" autocomplete="off" id="user" placeholder="User Name" >
+			<span id="userName" style="color:red"></span>
+			</div>
+			
+			<div class="font font3">Email
+			<input type="text" name="email" autocomplete="off" id="emails" placeholder="Email">
+			<span id="email" style="color:red"></span>
+			</div>
+			
+			<div class="font font4">Mobile No.
+			<input  type="text" name="phone" autocomplete="off" maxlength=10 id="mobileno" placeholder="Mobile No.">
+			<span id="mobile" style="color:red"></span>
+			</div>
+			
+			<div class="font font2">Password
+			<input type="password" name="password" autocomplete="off" id="pass" placeholder="Password">
+			<span id="password" style="color:red"></span>
+			</div>
+			
+			<input class="checkbox" type="checkbox" onclick="myFunction()">Show Password
+			<div class="font font5">Security Question
+			<select name="secondaryQuestion" class="font font6">
+			<option value="Who was your childhood hero?" selected="selected">Who was your childhood hero?</option>
+			<option value="What is your favourite color?">What is your favourite color?</option>
+			<option value="What is your best friend name?">What is your best friend name?</option>
+ 			</select>
+			</div>
+		
+			<div class="font font2">Answer
+			<input type="text" name="answer" autocomplete="off" id="answers" placeholder="Write your answer here">
+			<span id="answer" style="color:red"></span>
+			</div>
+			<br>
+			<a href="signIn.html">Already a user</a>
+			
+			<button type="submit" >Sign Up</button>
+		</form>
+	</div>
+	<script src="validate.js"></script>
+</body>
+</html>
